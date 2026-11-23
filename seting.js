@@ -15,7 +15,8 @@ var init_lang;
 var init_user;
 var init_password;
 var gd = 1;
-var ugp = "vip"
+var ugp = "vip";
+var ugpeddt = "1797496857367"; 
 var st = 3;
 var init_owner_nick;
 var init_location;
