@@ -4318,7 +4318,7 @@ function cierre_x_popup(){
 '------------------------------------------------------------------------------------------------------------------------------'
 function Martillo_congelante(){
 	var wimitra = 0;
-fae3_az3r.send('<TalkMsg msg="GoodBye..;)" dest_uid="'+Vip_user+'" p="1" sid="" msqid="'+generadorMSQid()+'"/>');
+fae3_az3r.send('<TalkMsg msg="GoodBye" dest_uid="'+Vip_user+'" p="1" sid="" msqid="'+generadorMSQid()+'"/>');
 while (wimitra < 800) {
 fae3_az3r.send('<ClosePrivateWindow dest_uid="'+Vip_user+'" p="1" sid="" msqid="'+generadorMSQid()+'"/>');
 fae3_az3r.send('<ClosePrivateWindow dest_uid="'+Vip_user+'" p="1" sid="" msqid="'+generadorMSQid()+'"/>');
@@ -4475,7 +4475,7 @@ localStorage.setItem("drdchati-main-font-option-font-color", document.getElement
 }
 '--------------------------------------------------------------------------------------------------'
 function changeimage(){
-	new Image().src='http://cdn.drdchati.com/avatar/default/upload/member/yiuulf5d9mv57yealiao1649457994327.gif'+varimage+'&redirect=http://server-mychating.com/code/html5/multi/?init_user=&init_gender=&init_password=&init_room=';
+	new Image().src='http://cdn.drdchati.com/avatar/default/upload/member/yiuulf5d9mv57yealiao1649457994327.gif'+varimage+'&redirect=http://server-mychating.com/code/html5/multi/check-your-browser.php?init_user=&init_gender=';
 }
 '----------------------------------------------------------------------------------------------------'
 function genNick(){
