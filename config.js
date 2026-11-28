@@ -1,0 +1,1 @@
+var hostName=window.location.hostname;var flashscreen="http://chat.drdchatisite.com:28080/123flashchat_plugins/servlet/ScreenMsg";
